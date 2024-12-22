@@ -9,17 +9,17 @@ O repositório é organizado para facilitar o entendimento e a manutenção do p
 AZURE-STORAGE-ACCOUNT/
 
 │
-├── desktop.ini        # Arquivo de configuração local para o diretório
+├── desktop.ini             #  Arquivo de configuração local para o diretório
 
-├── locals.tf          # Definição de variáveis locais (tags comuns)
+├── locals.tf               #  Definição de variáveis locais (tags comuns)
 
-├── main.tf            # Configuração principal do Terraform e do backend remoto
+├── main.tf                 #  Configuração principal do Terraform e do backend remoto
 
-├── outputs.tf         # Declaração das saídas, como a URL da Storage Account
+├── outputs.tf              #  Declaração das saídas, como a URL da Storage Account
 
-├── variables.tf       # Declaração de variáveis reutilizáveis
+├── variables.tf            #  Declaração de variáveis reutilizáveis
 
-└── storage.tf         # Recursos Terraform para criar a Storage Account e configurações relacionadas
+└── storage.tf              #  Recursos Terraform para criar a Storage Account e configurações relacionadas
 
 Descrição dos Arquivos
 
